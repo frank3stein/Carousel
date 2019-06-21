@@ -1,4 +1,4 @@
 {
-  "presets": ["@babel/preset-react"],
-  "plugins": ["emotion"]
+  "presets": ["@babel/preset-react", "@emotion/babel-preset-css-prop"],
+  "plugins": ["emotion", "transform-inline-environment-variables"] // environment variables bug with emotion + parcel
 }

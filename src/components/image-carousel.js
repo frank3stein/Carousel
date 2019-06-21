@@ -31,20 +31,6 @@ export default function ImageCarousel({ images }) {
           margin: 1rem auto;
           padding: 0;
 
-          /* position: relative;
-          box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
-
-          &::after {
-            content: "";
-            position: absolute;
-            z-index: -1;
-            box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-            width: 100%;
-            left: 1%;
-            height: 100vh;
-            bottom: 0;
-          } */
-
           button {
             font-size: 3rem;
             border-color: white;

@@ -12,8 +12,6 @@ export default function Image({ src, index, alt = "" }) {
       <source media="(max-width:599px)" srcSet={`${src[6]} 400w`} />
       <img
         css={css`
-          /* width: 100%; */
-          /* height: auto; */
           height: 80vh;
         `}
         src={src[3]}

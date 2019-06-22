@@ -42,61 +42,61 @@ var e=arguments[3];Object.defineProperty(exports,"__esModule",{value:!0});var n=
 },{"@emotion/core":"haMh","react":"1n8/"}],"JUxY":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=d;var e=require("@emotion/core"),t=u(require("react")),r=o(require("./image")),n=o(require("./image-dot-buttons"));function o(e){return e&&e.__esModule?e:{default:e}}function u(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}function i(e,t){return l(e)||a(e,t)||c()}function c(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}function a(e,t){var r=[],n=!0,o=!1,u=void 0;try{for(var i,c=e[Symbol.iterator]();!(n=(i=c.next()).done)&&(r.push(i.value),!t||r.length!==t);n=!0);}catch(a){o=!0,u=a}finally{try{n||null==c.return||c.return()}finally{if(o)throw u}}return r}function l(e){if(Array.isArray(e))return e}var s={name:"8hrfb",styles:"display:flex;justify-content:center;align-content:center;max-width:90vw;button{font-size:3rem;border-color:white;background-color:black;color:white;}"},f={name:"1te4gad",styles:"display:flex;justify-content:center;align-items:center;padding:1.2rem;"};function d(o){var u=o.images,c=i((0,t.useState)(u.length-1),2),a=c[0],l=c[1];return(0,e.jsx)(t.default.Fragment,null,(0,e.jsx)("section",{css:s},(0,e.jsx)("button",{css:(0,e.css)(""),onClick:function(e){return function(e){e.preventDefault(),l(0!==a?a-1:u.length-1)}(e)}},"←"),(0,e.jsx)(r.default,{src:u[a],key:a,index:a}),(0,e.jsx)("button",{onClick:function(e){return function(e){e.preventDefault(),a!==u.length-1?l(a+1):l(0)}(e)}},"→")),(0,e.jsx)("section",{css:f},u.map(function(t,r){return(0,e.jsx)(n.default,{cb:function(e){e.preventDefault(),l(r)},selectedImage:a,key:r,buttonId:r})})))}
 },{"@emotion/core":"haMh","react":"1n8/","./image":"ZYNy","./image-dot-buttons":"Qevh"}],"qyFg":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-original.8ee56f78.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-original.8ee56f78.jpeg";
 },{}],"X4ZP":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-1920w.486d08df.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-1920w.486d08df.jpeg";
 },{}],"uAkm":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-1200w.50e9e1bc.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-1200w.50e9e1bc.jpeg";
 },{}],"VgLH":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-1000w.03a6e702.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-1000w.03a6e702.jpeg";
 },{}],"tsP5":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-800w.73efbf09.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-800w.73efbf09.jpeg";
 },{}],"nUTJ":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-600w.d7ba5990.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-600w.d7ba5990.jpeg";
 },{}],"BYlq":[function(require,module,exports) {
-module.exports="/jurriaan-snikkers-99062-unsplash-400w.8c6e2f25.jpeg";
+module.exports="jurriaan-snikkers-99062-unsplash-400w.8c6e2f25.jpeg";
 },{}],"wgbg":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-original.d26c9ffe.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-original.d26c9ffe.jpeg";
 },{}],"0Fqx":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-1920w.fb9eab85.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-1920w.fb9eab85.jpeg";
 },{}],"O9yJ":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-1200w.2bf3a3d2.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-1200w.2bf3a3d2.jpeg";
 },{}],"UtMr":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-1000w.a416b292.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-1000w.a416b292.jpeg";
 },{}],"K8UP":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-800w.febae725.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-800w.febae725.jpeg";
 },{}],"Jg3x":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-600w.70657f6e.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-600w.70657f6e.jpeg";
 },{}],"4HSU":[function(require,module,exports) {
-module.exports="/kees-streefkerk-654164-unsplash-400w.aee55f6f.jpeg";
+module.exports="kees-streefkerk-654164-unsplash-400w.aee55f6f.jpeg";
 },{}],"u5gI":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-original.fdc53908.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-original.fdc53908.jpeg";
 },{}],"NCr9":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-1920w.c4d2c855.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-1920w.c4d2c855.jpeg";
 },{}],"Ps7v":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-1200w.a6241cf1.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-1200w.a6241cf1.jpeg";
 },{}],"+S9K":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-1000w.d4bfdded.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-1000w.d4bfdded.jpeg";
 },{}],"F0mO":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-800w.1acf4ca0.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-800w.1acf4ca0.jpeg";
 },{}],"8QUV":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-600w.e51bba37.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-600w.e51bba37.jpeg";
 },{}],"ErfO":[function(require,module,exports) {
-module.exports="/rik-van-der-kroon-34753-unsplash-400w.b86a7063.jpeg";
+module.exports="rik-van-der-kroon-34753-unsplash-400w.b86a7063.jpeg";
 },{}],"3TlG":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-original.8967304e.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-original.8967304e.jpeg";
 },{}],"mF+3":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-1920w.ea6e0bd2.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-1920w.ea6e0bd2.jpeg";
 },{}],"f8bB":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-1200w.20cb43dc.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-1200w.20cb43dc.jpeg";
 },{}],"sEq1":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-1000w.2703f4df.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-1000w.2703f4df.jpeg";
 },{}],"X+Zt":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-800w.a1663988.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-800w.a1663988.jpeg";
 },{}],"CnZl":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-600w.394ec6be.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-600w.394ec6be.jpeg";
 },{}],"5Ngk":[function(require,module,exports) {
-module.exports="/serhat-beyazkaya-665209-unsplash-400w.9726bf0e.jpeg";
+module.exports="serhat-beyazkaya-665209-unsplash-400w.9726bf0e.jpeg";
 },{}],"Q9Fd":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=P(require("./processed/jurriaan-snikkers-99062-unsplash-original.jpeg")),r=P(require("./processed/jurriaan-snikkers-99062-unsplash-1920w.jpeg")),s=P(require("./processed/jurriaan-snikkers-99062-unsplash-1200w.jpeg")),a=P(require("./processed/jurriaan-snikkers-99062-unsplash-1000w.jpeg")),u=P(require("./processed/jurriaan-snikkers-99062-unsplash-800w.jpeg")),p=P(require("./processed/jurriaan-snikkers-99062-unsplash-600w.jpeg")),d=P(require("./processed/jurriaan-snikkers-99062-unsplash-400w.jpeg")),l=P(require("./processed/kees-streefkerk-654164-unsplash-original.jpeg")),n=P(require("./processed/kees-streefkerk-654164-unsplash-1920w.jpeg")),i=P(require("./processed/kees-streefkerk-654164-unsplash-1200w.jpeg")),k=P(require("./processed/kees-streefkerk-654164-unsplash-1000w.jpeg")),o=P(require("./processed/kees-streefkerk-654164-unsplash-800w.jpeg")),t=P(require("./processed/kees-streefkerk-654164-unsplash-600w.jpeg")),f=P(require("./processed/kees-streefkerk-654164-unsplash-400w.jpeg")),j=P(require("./processed/rik-van-der-kroon-34753-unsplash-original.jpeg")),h=P(require("./processed/rik-van-der-kroon-34753-unsplash-1920w.jpeg")),g=P(require("./processed/rik-van-der-kroon-34753-unsplash-1200w.jpeg")),c=P(require("./processed/rik-van-der-kroon-34753-unsplash-1000w.jpeg")),q=P(require("./processed/rik-van-der-kroon-34753-unsplash-800w.jpeg")),w=P(require("./processed/rik-van-der-kroon-34753-unsplash-600w.jpeg")),y=P(require("./processed/rik-van-der-kroon-34753-unsplash-400w.jpeg")),v=P(require("./processed/serhat-beyazkaya-665209-unsplash-original.jpeg")),b=P(require("./processed/serhat-beyazkaya-665209-unsplash-1920w.jpeg")),z=P(require("./processed/serhat-beyazkaya-665209-unsplash-1200w.jpeg")),_=P(require("./processed/serhat-beyazkaya-665209-unsplash-1000w.jpeg")),x=P(require("./processed/serhat-beyazkaya-665209-unsplash-800w.jpeg")),M=P(require("./processed/serhat-beyazkaya-665209-unsplash-600w.jpeg")),O=P(require("./processed/serhat-beyazkaya-665209-unsplash-400w.jpeg"));function P(e){return e&&e.__esModule?e:{default:e}}var m=[[e.default,r.default,s.default,a.default,u.default,p.default,d.default],[l.default,n.default,i.default,k.default,o.default,t.default,f.default],[j.default,h.default,g.default,c.default,q.default,w.default,y.default],[v.default,b.default,z.default,_.default,x.default,M.default,O.default]],A=m;exports.default=A;
 },{"./processed/jurriaan-snikkers-99062-unsplash-original.jpeg":"qyFg","./processed/jurriaan-snikkers-99062-unsplash-1920w.jpeg":"X4ZP","./processed/jurriaan-snikkers-99062-unsplash-1200w.jpeg":"uAkm","./processed/jurriaan-snikkers-99062-unsplash-1000w.jpeg":"VgLH","./processed/jurriaan-snikkers-99062-unsplash-800w.jpeg":"tsP5","./processed/jurriaan-snikkers-99062-unsplash-600w.jpeg":"nUTJ","./processed/jurriaan-snikkers-99062-unsplash-400w.jpeg":"BYlq","./processed/kees-streefkerk-654164-unsplash-original.jpeg":"wgbg","./processed/kees-streefkerk-654164-unsplash-1920w.jpeg":"0Fqx","./processed/kees-streefkerk-654164-unsplash-1200w.jpeg":"O9yJ","./processed/kees-streefkerk-654164-unsplash-1000w.jpeg":"UtMr","./processed/kees-streefkerk-654164-unsplash-800w.jpeg":"K8UP","./processed/kees-streefkerk-654164-unsplash-600w.jpeg":"Jg3x","./processed/kees-streefkerk-654164-unsplash-400w.jpeg":"4HSU","./processed/rik-van-der-kroon-34753-unsplash-original.jpeg":"u5gI","./processed/rik-van-der-kroon-34753-unsplash-1920w.jpeg":"NCr9","./processed/rik-van-der-kroon-34753-unsplash-1200w.jpeg":"Ps7v","./processed/rik-van-der-kroon-34753-unsplash-1000w.jpeg":"+S9K","./processed/rik-van-der-kroon-34753-unsplash-800w.jpeg":"F0mO","./processed/rik-van-der-kroon-34753-unsplash-600w.jpeg":"8QUV","./processed/rik-van-der-kroon-34753-unsplash-400w.jpeg":"ErfO","./processed/serhat-beyazkaya-665209-unsplash-original.jpeg":"3TlG","./processed/serhat-beyazkaya-665209-unsplash-1920w.jpeg":"mF+3","./processed/serhat-beyazkaya-665209-unsplash-1200w.jpeg":"f8bB","./processed/serhat-beyazkaya-665209-unsplash-1000w.jpeg":"sEq1","./processed/serhat-beyazkaya-665209-unsplash-800w.jpeg":"X+Zt","./processed/serhat-beyazkaya-665209-unsplash-600w.jpeg":"CnZl","./processed/serhat-beyazkaya-665209-unsplash-400w.jpeg":"5Ngk"}],"Tnu0":[function(require,module,exports) {
@@ -104,4 +104,4 @@ module.exports="/serhat-beyazkaya-665209-unsplash-400w.9726bf0e.jpeg";
 },{}],"A2T1":[function(require,module,exports) {
 "use strict";var e=require("@emotion/core"),r=s(require("react")),t=require("react-dom"),u=s(require("./components/image-carousel")),n=s(require("./images/imageExports"));function s(e){return e&&e.__esModule?e:{default:e}}function i(){return(0,e.jsx)(r.default.Fragment,null,(0,e.jsx)(u.default,{images:n.default}))}require("./styles.css"),(0,t.render)((0,e.jsx)(i,null),document.getElementById("root"));
 },{"@emotion/core":"haMh","react":"1n8/","react-dom":"NKHc","./components/image-carousel":"JUxY","./images/imageExports":"Q9Fd","./styles.css":"Tnu0"}]},{},["A2T1"], null)
-//# sourceMappingURL=/app.c39fed8b.js.map
+//# sourceMappingURL=app.c39fed8b.js.map

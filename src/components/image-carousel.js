@@ -4,7 +4,7 @@ import ImageDotButtons from "./image-dot-buttons";
 import { css } from "@emotion/core";
 
 export default function ImageCarousel({ images }) {
-  const [index, setIndex] = useState(images.length - 1);
+  const [index, setIndex] = useState(images.length - 1); // start from last image
   function handleLeft(e) {
     e.preventDefault();
     if (index === 0) {
@@ -27,9 +27,8 @@ export default function ImageCarousel({ images }) {
         css={css`
           display: flex;
           justify-content: center;
-
-          margin: 1rem auto;
-          padding: 0;
+          align-content: center;
+          max-width: 90vw;
 
           button {
             font-size: 3rem;
@@ -52,13 +51,17 @@ export default function ImageCarousel({ images }) {
           justify-content: center;
           align-items: center;
           padding: 1.2rem;
-          /* background-color: black; */
         `}
       >
-        {images.map((_, index) => (
+        {images.map((_, buttonId) => (
           <ImageDotButtons
-            cb={() => setIndex(index)}
-            key={index}
+            cb={e => {
+              e.preventDefault();
+              setIndex(buttonId);
+            }}
+            selectedImage={index}
+            key={buttonId}
+            buttonId={buttonId}
           ></ImageDotButtons>
         ))}
       </section>

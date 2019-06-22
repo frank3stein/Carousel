@@ -6,7 +6,6 @@ import "./styles.css";
 function App() {
   return (
     <>
-      {/* <p>Hello</p> */}
       <ImageCarousel images={images} />
     </>
   );

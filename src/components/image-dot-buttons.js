@@ -1,7 +1,7 @@
 import React from "react";
 import { css } from "@emotion/core";
 
-function ImageDotBUttons({ cb }) {
+function ImageDotButtons({ cb, selectedImage, buttonId }) {
   return (
     <button
       css={css`
@@ -12,9 +12,13 @@ function ImageDotBUttons({ cb }) {
         background-color: hsla(160, 40%, 50%, 0.7);
         border-radius: 50%;
         display: inline-block;
+
         transition: background-color 0.6s ease;
 
         &:hover {
+          background-color: #717171;
+        }
+        &.active {
           background-color: #717171;
         }
       `}
@@ -22,7 +26,8 @@ function ImageDotBUttons({ cb }) {
         e.preventDefault();
         cb(e);
       }}
+      className={selectedImage === buttonId ? "active" : ""}
     ></button>
   );
 }
-export default ImageDotBUttons;
+export default ImageDotButtons;

@@ -12,9 +12,10 @@ export default function Image({ src, index, alt = "" }) {
       <source media="(max-width:599px)" srcSet={`${src[6]} 400w`} />
       <img
         css={css`
-          height: 80vh;
+          width: 100%;
+          height: 100%;
         `}
-        src={src[3]}
+        src={src[3]} // 1000w image as the fallback image
         alt={alt}
       />
     </picture>

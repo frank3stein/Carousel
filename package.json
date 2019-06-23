@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp clean image",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "rimraf -r dist/ && npm run gulp && npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "parcel src/index.html",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "format": "prettier \"src/**/*.{js,html}\" --write",
@@ -28,6 +31,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.6.0",
+    "gh-pages": "^2.0.1",
     "gulp": "^4.0.2",
     "gulp-responsive": "^2.14.0",
     "parcel-bundler": "^1.12.3",

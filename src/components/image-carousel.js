@@ -28,8 +28,6 @@ export default function ImageCarousel({ images }) {
           display: flex;
           justify-content: center;
           align-content: center;
-          max-width: 90vw;
-
           button {
             font-size: 3rem;
             border-color: white;
@@ -50,13 +48,12 @@ export default function ImageCarousel({ images }) {
           display: flex;
           justify-content: center;
           align-items: center;
-          padding: 1.2rem;
+          padding-top: 1.2rem;
         `}
       >
         {images.map((_, buttonId) => (
           <ImageDotButtons
-            cb={e => {
-              e.preventDefault();
+            cb={() => {
               setIndex(buttonId);
             }}
             selectedImage={index}

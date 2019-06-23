@@ -25,26 +25,56 @@ export default function ImageCarousel({ images }) {
     <>
       <section
         css={css`
+          width: 100%;
+          height: 100%;
           display: flex;
           justify-content: center;
           align-content: center;
+          background-color: black;
           button {
+            position: fixed;
             font-size: 3rem;
-            border-color: white;
+            height: 3rem;
+            width: 3rem;
+            top: calc(50vh - 24px);
+            border-color: teal;
             background-color: black;
             color: white;
+            border-radius: 50%;
+            vertical-align: middle;
+            span {
+              position: relative;
+              top: -0.8rem;
+            }
           }
         `}
       >
-        <button css={css``} onClick={e => handleLeft(e)}>
-          &#8592;
+        <button
+          css={css`
+            /* left button */
+            left: 0;
+          `}
+          onClick={e => handleLeft(e)}
+        >
+          <span>&#8592;</span>
         </button>
         <Image src={images[index]} key={index} index={index} />
 
-        <button onClick={e => handleRight(e)}>&#8594;</button>
+        <button
+          css={css`
+            /* right button */
+            right: 0;
+          `}
+          onClick={e => handleRight(e)}
+        >
+          <span>&#8594;</span>
+        </button>
       </section>
       <section
         css={css`
+          position: fixed;
+          bottom: 75px;
+          left: calc(50vw - 180px / 2);
           display: flex;
           justify-content: center;
           align-items: center;

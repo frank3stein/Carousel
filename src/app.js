@@ -4,11 +4,7 @@ import ImageCarousel from "./components/image-carousel";
 import images from "./images/imageExports";
 import "./styles.css";
 function App() {
-  return (
-    <>
-      <ImageCarousel images={images} />
-    </>
-  );
+  return <ImageCarousel images={images} />;
 }
 
 render(<App />, document.getElementById("root"));

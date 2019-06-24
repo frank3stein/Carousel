@@ -13,6 +13,11 @@ export default function Image({ src, index, alt = "" }) {
       <img
         css={css`
           max-height: 100vh;
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
         `}
         src={src[3]} // 1000w image as the fallback image
         alt={alt}

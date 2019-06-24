@@ -25,8 +25,6 @@ export default function ImageCarousel({ images }) {
     <>
       <section
         css={css`
-          width: 100%;
-          height: 100%;
           display: flex;
           justify-content: center;
           align-content: center;
@@ -42,6 +40,7 @@ export default function ImageCarousel({ images }) {
             color: white;
             border-radius: 50%;
             vertical-align: middle;
+            z-index: 1;
             span {
               position: relative;
               top: -0.8rem;
@@ -79,6 +78,9 @@ export default function ImageCarousel({ images }) {
           justify-content: center;
           align-items: center;
           padding-top: 1.2rem;
+          @media screen and (orientation: landscape) {
+            display: none;
+          }
         `}
       >
         {images.map((_, buttonId) => (

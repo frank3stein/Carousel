@@ -45,6 +45,9 @@ export default function ImageCarousel({ images }) {
               position: relative;
               top: -0.8rem;
             }
+            &:focus {
+              outline: none;
+            }
           }
         `}
       >

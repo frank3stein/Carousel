@@ -10,4 +10,4 @@ After you `git clone https://github.com/frank3stein/Carousel.git` the repo, just
 
 If you want to check the running project https://frank3stein.github.io/Carousel/.
 
-Note: If you encounter sharp error while npm i, you probably run the latest node version. Gulp-responsive dependecny sharp does not work with the latest node versions. With 10, it does work. `nvm use 10` if you have nvm installed.
+Note: If you encounter sharp error while npm i, you probably run the latest node version. Gulp-responsive dependency sharp does not work with the latest node versions. With 10, it does work. `nvm use 10` if you have nvm installed.
